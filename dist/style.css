@@ -1,0 +1,128 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #272829;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ /* This is for header */
+#header{
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: #61677A;
+    border: 2px solid #272829;
+}
+
+h1{
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+/* ///////// */
+
+/* for the plans on the right */
+
+#plans{
+    display: flex;
+    grid-column: 1 / 2;
+    flex-direction: column;
+    background-color: #61677A;
+    border: 2px solid #272829;
+}
+
+#plan{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 250px;
+    color: black;
+    background-color: whitesmoke;
+    
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+#addNew{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 250px;
+    color: black;
+    background-color: whitesmoke;
+    
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+/* ////////////////////// */
+
+#content{
+    display: flex;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    flex-direction: column;
+}
+
+.objective{
+    height: 150px;
+    display: flex;
+    width: 800px;
+    color: black;
+    background-color: whitesmoke;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#booksForm{
+    height: 150px;
+    display: flex;
+    width: 800px;
+    color: black;
+    background-color: whitesmoke;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.objective > h1{
+    font-size: 20px;
+}
+
+p{
+    padding-left: 25px;
+}
+
+/* #objective2{ 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 800px;
+    color: black;
+    background-color: whitesmoke;
+    
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+} */
